@@ -8,6 +8,8 @@ background-color: #ECE1E9;
   background:#ff5350;
     background:#ff7050;
 
+    "libre baskerville", serif
+    rgb(40, 128, 102)
 
 
 */
@@ -27,7 +29,9 @@ h3 {
   font-family: var(--secondary-font);
   font-size: 15px;
 }
-
+nav img{
+  margin-left: 20px;
+}
 .navigation-link {
   display: flex;
   justify-content: center;
@@ -46,13 +50,15 @@ h3 {
 
 .main-link {
   color: white;
-  background:#0d483b;
+  background:#575e54;
+}
+
+.logo{
+  max-height: 100px
 }
 
 .hero {
-  margin-top: 50px;
-  background-color: #e3faf5;
-  padding: 2px;
+  margin-top: 100px;
   padding-top: 50px;
   padding-bottom: 30px;
   border-radius: 4px;
