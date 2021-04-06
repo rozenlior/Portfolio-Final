@@ -18,6 +18,17 @@ background-color: #ECE1E9;
   --secondary-font: "Montserrat", sans-serif;
 }
 
+nav a {
+  text-decoration: none;
+  color: rgb(40, 128, 102);
+  transition: all 100ms ease-in-out;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "libre baskerville", serif;
+  font-size: 22px;
+}
+
 h1 {
   font-family: var(--primary-font);
   line-height: 1.5;
@@ -29,7 +40,7 @@ h3 {
   font-family: var(--secondary-font);
   font-size: 15px;
 }
-nav img{
+nav img {
   margin-left: 20px;
 }
 .navigation-link {
@@ -39,7 +50,7 @@ nav img{
 }
 
 .navigation-link a {
-  margin:20px;
+  margin: 20px;
   border-radius: 4px;
   padding: 15px 20px;
   text-decoration: none;
@@ -50,11 +61,11 @@ nav img{
 
 .main-link {
   color: white;
-  background:#575e54;
+  background: #575e54;
 }
 
-.logo{
-  max-height: 100px
+.logo {
+  max-height: 100px;
 }
 
 .hero {
@@ -62,6 +73,10 @@ nav img{
   padding-top: 50px;
   padding-bottom: 30px;
   border-radius: 4px;
+}
+
+.paintings:hover {
+  ;
 }
 
 @media (min-width: 768px) {
@@ -72,7 +87,7 @@ nav img{
   h3 {
     font-size: 24px;
   }
-  .navigation-link a{
+  .navigation-link a {
     font-size: 20px;
     padding: 20px 30px;
   }
