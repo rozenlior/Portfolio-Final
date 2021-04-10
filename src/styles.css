@@ -29,10 +29,26 @@ nav a {
   font-size: 22px;
 }
 
-h1 {
+.painting-row{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.painting-row1{
+  justify-content: space-between;
+}
+
+h2.title{
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+h1.index{
   font-family: var(--primary-font);
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
   font-size: 24px;
 }
 
@@ -41,7 +57,14 @@ h3 {
   font-size: 15px;
 }
 nav img {
-  margin-left: 20px;
+ border-radius: 4px;
+}
+
+.
+
+.description{
+  text-decoration:none;
+  text-align: center;
 }
 .navigation-link {
   display: flex;
@@ -69,15 +92,27 @@ nav img {
 }
 
 .hero {
-  margin-top: 100px;
+  margin-top: 40px;
   padding-top: 50px;
   padding-bottom: 30px;
   border-radius: 4px;
 }
 
-.paintings:hover {
-  ;
+
+.description{
+  font-family: var(--primary-font);
+padding:10px 15px;
+border-radius: 4px;
+
 }
+
+a.button-main{
+  display: block;
+    text-align: center;
+    margin: 0 20px;
+  
+}
+
 
 @media (min-width: 768px) {
   h1 {
